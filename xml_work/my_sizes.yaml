@@ -1,0 +1,55 @@
+head: 
+  d_top: 0.2
+  d: 0.16
+  h: 0.225
+neck:
+  h: 0.05
+  w: 0.1
+torso:
+  l: 0.65
+breasts:
+  h: 0.45
+  w: 0.05
+  d: 0.10
+shoulders:
+  w: 0.28
+  h: 0.11
+ub2:
+  w: 0.30
+  h: 0.15
+ub1:
+  w: 0.295
+  h: 0.17
+cb:
+  w: 0.28
+  h: 0.19
+lb:
+  w: 0.36
+  h: 0.22
+upper leg: 
+  w: 0.17
+  h_in: 0.36
+  h_out: 0.43
+  gap: 0.02
+lower leg:
+  w: 0.1
+  h: 0.41
+upper arm:
+  w: 0.08
+  h: 0.325
+lower arm: 
+  w: 0.06
+  h: 0.225
+foot:
+  full_l: 0.27
+  toe_l: 0.075
+  w: 0.095
+  h: 0.04
+  ankle_h: 0.09
+hand:
+  palm_l: 0.065
+  palm_w: 0.08
+  palm_h: 0.025
+  finger_l: 0.085
+  hand_b: 0.075
+mass_kg: 70

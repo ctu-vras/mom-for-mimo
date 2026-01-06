@@ -1,0 +1,37 @@
+<body>
+	<body name="mocap_hips" mocap="true" pos="0.0 0.0 1.0499999999999998" />
+	<body name="mocap_lb" mocap="true" pos="0.0 0.0 1.2025" />
+	<body name="mocap_ub" mocap="true" pos="0.0 0.0 1.351" />
+	<body name="mocap_neck" mocap="true" pos="0.0 0.0 1.496" />
+	<body name="mocap_head" mocap="true" pos="0.0 0.0 1.591" />
+	<body name="mocap_right_shoulder_help" mocap="true" pos="0.0 0.0 1.465" />
+	<body name="mocap_right_shoulder" mocap="true" pos="0.0 -0.14 1.486" />
+	<body name="mocap_right_elbow" mocap="true" pos="0.27999999999999997 -0.18000000000000005 1.486" />
+	<body name="mocap_right_forearm" mocap="true" pos="0.4149999999999999 -0.18000000000000005 1.486" />
+	<body name="mocap_right_wrist" mocap="true" pos="0.5299999999999998 -0.18000000000000005 1.486" />
+	<body name="mocap_right_wrist_in" mocap="true" pos="0.5249999999999999 -0.16494247713987006 1.513807750813697" />
+	<body name="mocap_right_wrist_out" mocap="true" pos="0.5249999999999999 -0.17570866415521977 1.45274967012694" />
+	<body name="mocap_right_finger" mocap="true" pos="0.6027089257503948 -0.18563368015026013 1.511637517017725" />
+	<body name="mocap_left_shoulder_help" mocap="true" pos="0.0 0.0 1.465" />
+	<body name="mocap_left_shoulder" mocap="true" pos="0.0 0.14 1.486" />
+	<body name="mocap_left_elbow" mocap="true" pos="0.27999999999999997 0.18000000000000005 1.486" />
+	<body name="mocap_left_forearm" mocap="true" pos="0.4149999999999999 0.18000000000000005 1.486" />
+	<body name="mocap_left_wrist" mocap="true" pos="0.5299999999999998 0.18000000000000005 1.486" />
+	<body name="mocap_left_wrist_in" mocap="true" pos="0.5249999999999999 0.16494247713987006 1.513807750813697" />
+	<body name="mocap_left_wrist_out" mocap="true" pos="0.5249999999999999 0.17570866415521977 1.45274967012694" />
+	<body name="mocap_left_finger" mocap="true" pos="0.6027089257503948 0.18563368015026013 1.511637517017725" />
+	<body name="mocap_right_hip" mocap="true" pos="0.0 -0.095 0.9609999999999999" />
+	<body name="mocap_right_knee" mocap="true" pos="0.0 -0.095 0.5309999999999999" />
+	<body name="mocap_right_ankle" mocap="true" pos="0.0 -0.095 0.12099999999999994" />
+	<body name="mocap_right_toe" mocap="true" pos="0.112 -0.0581 0.07099999999999995" />
+	<body name="mocap_left_hip" mocap="true" pos="0.0 0.095 0.9609999999999999" />
+	<body name="mocap_left_knee" mocap="true" pos="0.0 0.095 0.5309999999999999" />
+	<body name="mocap_left_ankle" mocap="true" pos="0.0 0.095 0.12099999999999994" />
+	<body name="mocap_left_toe" mocap="true" pos="0.112 0.0581 0.07099999999999995" />
+	<body name="mocap_headl" mocap="true" pos="0.03 0.1 1.6960000000000002" />
+	<body name="mocap_headr" mocap="true" pos="0.03 -0.1 1.6760000000000002" />
+	<body name="mocap_headfr" mocap="true" pos="0.08 -0.02 1.756" />
+	<body name="mocap_bb0" mocap="true" pos="0.15000000000000002 0.065 1.525041948915627" />
+	<body name="mocap_bb1" mocap="true" pos="0.15 1.2246467991473532e-18 1.5900419489156272" />
+	<body name="mocap_bb2" mocap="true" pos="0.15 -0.065 1.525041948915627" />
+</body>

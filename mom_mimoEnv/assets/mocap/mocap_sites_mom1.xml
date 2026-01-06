@@ -1,0 +1,107 @@
+<body>
+	<body name="mocap_hips" mocap="true" pos="0.0 0.0 1.0499999999999998">
+		<site name="mocap_hips" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_lb" mocap="true" pos="0.0 0.0 1.2025">
+		<site name="mocap_lb" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_ub" mocap="true" pos="0.0 0.0 1.351">
+		<site name="mocap_ub" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_neck" mocap="true" pos="0.0 0.0 1.496">
+		<site name="mocap_neck" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_head" mocap="true" pos="0.0 0.0 1.591">
+		<site name="mocap_head" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_shoulder_help" mocap="true" pos="0.0 0.0 1.465">
+		<site name="mocap_right_shoulder_help" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_shoulder" mocap="true" pos="0.0 -0.14 1.486">
+		<site name="mocap_right_shoulder" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_elbow" mocap="true" pos="0.0 -0.22862148974674062 1.2102538291565816">
+		<site name="mocap_right_elbow" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_forearm" mocap="true" pos="-1.8041124150158794e-18 -0.25206399373177624 1.0773047824999338">
+		<site name="mocap_right_forearm" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_wrist" mocap="true" pos="-3.400058012914542e-18 -0.2720335341634733 0.9640518909035298">
+		<site name="mocap_right_wrist" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_wrist_in" mocap="true" pos="0.009999999999999992 -0.30070952586550487 0.9741853749985988">
+		<site name="mocap_right_wrist_in" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_wrist_out" mocap="true" pos="0.01 -0.23965144517874798 0.9634191879832491">
+		<site name="mocap_right_wrist_out" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_finger" mocap="true" pos="-0.010000000000000007 -0.3085603418612053 0.8966619744912139">
+		<site name="mocap_right_finger" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_shoulder_help" mocap="true" pos="0.0 0.0 1.465">
+		<site name="mocap_left_shoulder_help" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_shoulder" mocap="true" pos="0.0 0.14 1.486">
+		<site name="mocap_left_shoulder" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_elbow" mocap="true" pos="0.0 0.22862148974674062 1.2102538291565816">
+		<site name="mocap_left_elbow" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_forearm" mocap="true" pos="-1.8041124150158794e-18 0.25206399373177624 1.0773047824999338">
+		<site name="mocap_left_forearm" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_wrist" mocap="true" pos="-3.400058012914542e-18 0.2720335341634733 0.9640518909035298">
+		<site name="mocap_left_wrist" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_wrist_in" mocap="true" pos="0.009999999999999992 0.30070952586550487 0.9741853749985988">
+		<site name="mocap_left_wrist_in" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_wrist_out" mocap="true" pos="0.01 0.23965144517874798 0.9634191879832491">
+		<site name="mocap_left_wrist_out" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_finger" mocap="true" pos="-0.010000000000000007 0.3085603418612053 0.8966619744912139">
+		<site name="mocap_left_finger" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_hip" mocap="true" pos="0.0 -0.095 0.9609999999999999">
+		<site name="mocap_right_hip" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_knee" mocap="true" pos="0.0 -0.095 0.5309999999999999">
+		<site name="mocap_right_knee" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_ankle" mocap="true" pos="0.0 -0.095 0.12099999999999994">
+		<site name="mocap_right_ankle" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_toe" mocap="true" pos="0.112 -0.0581 0.07099999999999995">
+		<site name="mocap_right_toe" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_hip" mocap="true" pos="0.0 0.095 0.9609999999999999">
+		<site name="mocap_left_hip" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_knee" mocap="true" pos="0.0 0.095 0.5309999999999999">
+		<site name="mocap_left_knee" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_ankle" mocap="true" pos="0.0 0.095 0.12099999999999994">
+		<site name="mocap_left_ankle" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_toe" mocap="true" pos="0.112 0.0581 0.07099999999999995">
+		<site name="mocap_left_toe" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_headl" mocap="true" pos="0.03 0.1 1.6960000000000002">
+		<site name="mocap_headl" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_headr" mocap="true" pos="0.03 -0.1 1.6760000000000002">
+		<site name="mocap_headr" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_headfr" mocap="true" pos="0.08 -0.02 1.756">
+		<site name="mocap_headfr" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<!-- <body name="mocap_bb0" mocap="true" pos="0.08499999999999999 0.2250419489156269 1.26">
+		<site name="mocap_bb0" type="sphere" size="0.01" material="mocap" />
+	</body> -->
+	<body name="mocap_bb1" mocap="true" pos="0.15 0.28 1.26">
+		<site name="mocap_bb1" type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_bb2" mocap="true" pos="0.215 0.2250419489156269 1.28">
+		<site name="mocap_bb2" type="sphere" size="0.01" material="mocap" />
+	</body>
+</body>

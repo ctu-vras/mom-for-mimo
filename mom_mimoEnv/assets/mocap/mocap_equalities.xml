@@ -1,0 +1,37 @@
+<equality>
+	<weld body1="a_lower_body" body2="mocap_hips" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_lower_body" body2="mocap_lb" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_upper_body" body2="mocap_ub" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_neck" body2="mocap_neck" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_head" body2="mocap_head" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_right_shoulder_help" body2="mocap_right_shoulder_help" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_right_shoulder_help" body2="mocap_right_shoulder" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_right_upper_arm" body2="mocap_right_elbow" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_right_lower_arm" body2="mocap_right_forearm" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_right_lower_arm" body2="mocap_right_wrist" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_right_hand" body2="mocap_right_wrist_in" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_right_hand" body2="mocap_right_wrist_out" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_right_hand" body2="mocap_right_finger" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_left_shoulder_help" body2="mocap_left_shoulder_help" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_left_shoulder_help" body2="mocap_left_shoulder" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_left_upper_arm" body2="mocap_left_elbow" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_left_lower_arm" body2="mocap_left_forearm" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_left_lower_arm" body2="mocap_left_wrist" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_left_hand" body2="mocap_left_wrist_in" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_left_hand" body2="mocap_left_wrist_out" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_left_hand" body2="mocap_left_finger" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_right_upper_leg" body2="mocap_right_hip" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_right_upper_leg" body2="mocap_right_knee" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_right_lower_leg" body2="mocap_right_ankle" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_right_foot" body2="mocap_right_toe" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_left_upper_leg" body2="mocap_left_hip" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_left_upper_leg" body2="mocap_left_knee" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_left_lower_leg" body2="mocap_left_ankle" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_left_foot" body2="mocap_left_toe" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_head" body2="mocap_headl" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_head" body2="mocap_headr" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="a_head" body2="mocap_headfr" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="head" body2="mocap_bb0" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="head" body2="mocap_bb1" solref="0.01 1" solimp=".95 .99 .0001" />
+	<weld body1="head" body2="mocap_bb2" solref="0.01 1" solimp=".95 .99 .0001" />
+</equality>

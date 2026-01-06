@@ -1,0 +1,92 @@
+<body>
+	<body name="mocap_hips" mocap="true" pos="0.264677 -0.229738 0.419688">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_lb" mocap="true" pos="0.256552 -0.224614 0.5694969999999999">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_ub" mocap="true" pos="0.248428 -0.21949100000000002 0.719306">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_neck" mocap="true" pos="0.240303 -0.214367 0.869115">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_head" mocap="true" pos="0.279205 -0.236893 0.959011">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_shoulder_help" mocap="true" pos="0.241981 -0.215425 0.8381810000000001">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_shoulder" mocap="true" pos="0.24416900000000002 -0.074949 0.84597">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_elbow" mocap="true" pos="0.35895900000000003 0.021547 0.557022">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_forearm" mocap="true" pos="0.438961 -0.052174 0.528827">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_wrist" mocap="true" pos="0.5189640000000001 -0.125895 0.500633">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_finger" mocap="true" pos="0.545078 -0.21232800000000002 0.49624900000000005">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_shoulder_help" mocap="true" pos="0.241981 -0.215425 0.8381810000000001">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_shoulder" mocap="true" pos="0.20505099999999998 -0.37200700000000003 0.842499">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_elbow" mocap="true" pos="0.253217 -0.521524 0.5702630000000001">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_forearm" mocap="true" pos="0.341446 -0.44832900000000003 0.546231">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_wrist" mocap="true" pos="0.429676 -0.375134 0.522199">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_finger" mocap="true" pos="nan nan nan">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_hip" mocap="true" pos="0.25959699999999997 -0.338687 0.328218">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_knee" mocap="true" pos="0.27087900000000004 -0.295675 -0.154882">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_ankle" mocap="true" pos="0.21148 -0.265944 -0.522288">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_right_toe" mocap="true" pos="0.344629 -0.311967 -0.55262">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_hip" mocap="true" pos="0.296868 -0.130315 0.318581">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_knee" mocap="true" pos="0.353231 -0.05631 -0.13974">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_ankle" mocap="true" pos="0.29718700000000003 0.03658 -0.50093">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_left_toe" mocap="true" pos="0.445404 0.041189 -0.54507">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_headl" mocap="true" pos="0.304367 -0.15432400000000002 1.071607">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_headr" mocap="true" pos="0.226456 -0.32703899999999997 1.0617999999999999">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_headfr" mocap="true" pos="0.36474900000000005 -0.280421 1.1090239999999998">
+		<site type="sphere" size="0.01" material="mocap" />
+	</body>
+	<body name="mocap_bb1" mocap="true" pos="0.412476 -0.032803 0.667886">
+		<site type="sphere" size="0.01" material="mocap_bb" />
+	</body>
+	<body name="mocap_bb2" mocap="true" pos="0.47524400000000006 -0.041425 0.612701">
+		<site type="sphere" size="0.01" material="mocap_bb" />
+	</body>
+</body>

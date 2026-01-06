@@ -1,0 +1,33 @@
+mom_shoulder2: 
+  mocap_sites: mocap_sites_mom_shoulder2
+  scene: mom_shoulder2_scene
+  mimo_orientation: 0 180 0
+mom_shoulder1:
+  mocap_sites: mocap_sites_mom_shoulder2
+  scene: mom_shoulder2_scene
+  mimo_orientation: 0 180 0
+mom4:
+  mocap_sites: mocap_sites_mom_shoulder2
+  scene: mom_shoulder2_scene
+  mimo_orientation: 0 180 0
+mom_away2:
+  mocap_sites: mocap_sites_mom_shoulder2
+  scene: mom_shoulder2_scene
+  mimo_orientation: 0 180 0
+mom_touch1:
+  mocap_sites: mocap_sites_mom_shoulder2
+  scene: mom_shoulder2_scene
+  mimo_orientation: 0 180 0
+mom_touch2:
+  mocap_sites: mocap_sites_mom_shoulder2
+  scene: mom_shoulder2_scene
+  mimo_orientation: 0 180 0
+
+mom2:
+  mocap_sites: mocap_sites_mom1
+  scene: mom1_scene
+  mimo_orientation: 0 0 0
+mom1:
+  mocap_sites: mocap_sites_mom1
+  scene: mom1_scene
+  mimo_orientation: 90 0 0

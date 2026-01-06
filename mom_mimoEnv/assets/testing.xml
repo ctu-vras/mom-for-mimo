@@ -1,0 +1,99 @@
+<mujoco model="MIMo">
+
+    <compiler inertiafromgeom="true" angle="degree"/>
+
+    <option gravity="0 0 -9.8" timestep="0.05" iterations="50" tolerance="1e-10" solver="Newton" jacobian="dense" cone="elliptic" impratio="1.0"/>
+
+    <!-- <option gravity="0 0 -9.8" timestep="0.0005" integrator="RK4" iterations="50" tolerance="1e-10" solver="PGS" jacobian="dense" cone="elliptic" impratio="1.0"/> -->
+
+    <size nconmax="1000" njmax="5000" nstack="10000000"/>
+
+    <visual>
+        <map force="0.1" zfar="30" znear="0.005"/>
+        <rgba haze="0.15 0.25 0.35 1"/>
+        <quality shadowsize="4096"/>
+        <global offwidth="800" offheight="800"/>
+    </visual>
+
+    <default>
+        <geom material="matgeom" condim="3" solimp="0.95 0.99 0.001 0.5 1" solref="0.005 1"/>
+    </default>
+
+    <asset>
+        <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="512"/>
+
+        <texture name="texplane" type="2d" builtin="checker" rgb1=".2 .3 .4" rgb2=".1 0.15 0.2" width="512" height="512" mark="cross" markrgb=".8 .8 .8"/>
+
+        <texture name="texgeom" type="cube" builtin="flat" mark="cross" width="127" height="1278"
+            rgb1="0.8 0.6 0.4" rgb2="0.8 0.6 0.4" markrgb="1 1 1" random="0.01"/>
+
+        <material name="matplane" reflectance="0.3" texture="texplane" texrepeat="1 1" texuniform="true"/>
+
+        <material name="matgeom" texture="texgeom" texuniform="true" rgba="0.8 0.6 .4 1"/>
+		
+		<material name="matmocap" texture="texgeom" texuniform="true" rgba="0.5 0 0.5 0.5"/>
+    </asset>
+	
+	<!-- Import everything except the kinematic tree -->
+	<include file="adult_infant_assets/textures.xml"></include>
+	<include file="mimo_newborn/MIMo_meta.xml"></include>
+	<!-- <include file="mimo_newborn/MIMo_metav2.xml"></include> -->
+	<include file="adult/adult_meta_simple.xml"></include>
+	<!-- <include file="adult/adult_meta.xml"></include> -->
+        
+
+    <equality>
+	    <!-- <weld body1="upper_body" body2="head" /> -->
+	    <!-- <include file="mocap/mocap_equalities.xml"></include> -->
+	    <!-- <include file="adult/mom/simple_equality.xml"></include> -->
+    </equality>
+
+
+    <worldbody>
+        <body name="room" pos="0 0 2">
+			<geom type="box" material="wall" size=".1 3 2" pos="-3 0 0"/>
+			<geom type="box" material="carpet" size="2 3 .01" pos="-1 0 -1.96"/>
+		</body>
+        <geom name="floor" pos="0 0 0" size="0 0 .25" type="plane" material="matplane" condim="3"/>
+
+        <light directional="false" diffuse=".4 .4 .4" specular="0 0 0" pos="0 0 10" dir="0 0 -1" castshadow="false"/>
+        <light mode="targetbodycom" target="a_upper_body" directional="false" diffuse=".8 .8 .8" specular="0.3 0.3 0.3" pos="3 0 5.0" dir="0 0 -1"/>
+        
+        <!-- <light directional="false" diffuse=".4 .4 .4" specular="0 0 0" pos="0 0 10" dir="0 0 -1" castshadow="false"/> -->
+        <!-- <light mode="targetbodycom" target="a_upper_body" directional="false" diffuse=".8 .8 .8" specular="0.3 0.3 0.3" pos="3 0 5.0" dir="0 0 -1"/> -->
+        <!-- <light mode="targetbodycom" target="upper_body" directional="false" diffuse=".8 .8 .8" specular="0.3 0.3 0.3" pos="0 0 5.0" dir="0 0 -1"/> -->
+		
+        <camera name="frontal" pos="6 0 1" fovy="20" mode="fixed" euler="0 90 90"/>
+		
+        <!-- The location and orientation of the base model can be set using this body -->
+
+        <!-- mom1 location -->
+		<!-- <body name="mimo_location" pos="0.15 0 1.25" euler="-90 0 -90">   -->
+
+        <!-- mom_front location -->
+		<!-- <body name="mimo_location" pos="0.15 0 1" euler="0 0 0">   -->
+
+        <!-- mom_shoulder2 location -->
+		<body name="mimo_location" pos="0 0.5 1" euler="0 0 0">  
+
+		<!-- <body name="mimo_location" pos="0.41868799999999995 -0.3 0.619818" euler="-90 0 -90"> -->
+		<!-- <body name="mimo_location" pos="0.16 -0.9 1.31" euler="0 0 180"> -->
+			<freejoint/>
+			<!-- <include file="mimo_newborn/MIMo_model.xml"></include>  -->
+			<include file="mimo_newborn/MIMo_model.xml"></include> 
+			<!-- <include file="mimo_newborn/MIMo_modelv2.xml"></include>  -->
+		</body>
+
+        <body name="a_location" pos="0 0 1" euler="0 0 0">
+        <!-- <body name="a_location" pos="0.268688 -0.230647 0.369818" euler="0 0 0"> -->
+			<freejoint/>
+			<include file="adult/mom/hands_down/mom_simple_new.xml"></include> 
+			<!-- <include file="adult/military/adult_military_model.xml"></include>  -->
+		</body>
+
+        <!-- <include file="mocap/mocap_sites.xml"></include> -->
+        <!-- <include file="mocap/baseline.xml"></include> -->
+        <!-- <include file="mocap/simple_centers_mocap_sites.xml"></include> -->
+
+    </worldbody>
+</mujoco>

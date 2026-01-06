@@ -1,0 +1,9 @@
+<equality>
+	<weld body1="a_right_hand" body2="a_right_fingers" solref="0.01 1" solimp=".95 .99 .0001" torquescale="2" />
+	<weld body1="a_left_hand" body2="a_left_fingers" solref="0.01 1" solimp=".95 .99 .0001" torquescale="2" />
+	<weld body1="a_right_foot" body2="a_right_toes" solref="0.01 1" solimp=".95 .99 .0001" torquescale="2" />
+	<weld body1="a_left_foot" body2="a_left_toes" solref="0.01 1" solimp=".95 .99 .0001" torquescale="2" />
+	
+	<weld body1="a_lower_body" body2="a_upper_body" solref="0.01 1" solimp=".95 .99 .0001" torquescale="20" />
+	<weld body1="a_hip" body2="a_lower_body" solref="0.01 1" solimp=".95 .99 .0001" torquescale="20" />
+</equality>

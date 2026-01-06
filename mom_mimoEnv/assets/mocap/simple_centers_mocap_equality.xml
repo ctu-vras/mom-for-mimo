@@ -1,0 +1,21 @@
+<equality>
+	<weld body1="a_hip" body2="m_hip" />
+	<weld body1="a_lower_body" body2="m_lower_body" />
+	<weld body1="a_upper_body" body2="m_upper_body" />
+	<weld body1="a_neck" body2="m_neck" />
+	<weld body1="a_head" body2="m_head" />
+	<weld body1="a_right_shoulder_help" body2="m_right_shoulder_help" />
+	<weld body1="a_right_upper_arm" body2="m_right_upper_arm" />
+	<weld body1="a_right_lower_arm" body2="m_right_lower_arm" />
+	<weld body1="a_right_hand" body2="m_right_hand" />
+	<weld body1="a_left_shoulder_help" body2="m_left_shoulder_help" />
+	<weld body1="a_left_upper_arm" body2="m_left_upper_arm" />
+	<weld body1="a_left_lower_arm" body2="m_left_lower_arm" />
+	<weld body1="a_left_hand" body2="m_left_hand" />
+	<weld body1="a_right_upper_leg" body2="m_right_upper_leg" />
+	<weld body1="a_right_upper_leg" body2="m_right_lower_leg" />
+	<weld body1="a_right_lower_leg" body2="m_right_foot" />
+	<weld body1="a_left_upper_leg" body2="m_left_upper_leg" />
+	<weld body1="a_left_upper_leg" body2="m_left_lower_leg" />
+	<weld body1="a_left_lower_leg" body2="m_left_foot" />
+</equality>

@@ -1,0 +1,59 @@
+<body>
+	<body name="m_hip" mocap="true" pos="0.0 -1.0 1.001" quat="1.0 0.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_lower_body" mocap="true" pos="0.0 -1.0 1.1584999999999999" quat="1.0 0.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_upper_body" mocap="true" pos="0.0 -1.0 1.291" quat="1.0 0.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_neck" mocap="true" pos="0.0 -1.0 1.516" quat="1.0 0.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_head" mocap="true" pos="0.0 -1.0 1.566" quat="1.0 0.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_right_shoulder_help" mocap="true" pos="0.0 -1.0 1.486" quat="1.0 0.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_right_upper_arm" mocap="true" pos="0.0 -1.2 1.486" quat="6.123233995736766e-17 1.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_right_lower_arm" mocap="true" pos="0.0 -1.2 1.176" quat="6.123233995736766e-17 1.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_right_hand" mocap="true" pos="0.008 -1.2 0.8859999999999999" quat="6.123233995736766e-17 1.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_left_shoulder_help" mocap="true" pos="0.0 -1.0 1.486" quat="1.0 0.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_left_upper_arm" mocap="true" pos="0.0 -0.8 1.486" quat="6.123233995736766e-17 -1.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_left_lower_arm" mocap="true" pos="0.0 -0.8 1.176" quat="6.123233995736766e-17 -1.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_left_hand" mocap="true" pos="0.008 -0.8 0.8859999999999999" quat="6.123233995736766e-17 -1.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_right_upper_leg" mocap="true" pos="0.0 -1.095 0.9609999999999999" quat="1.0 0.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_right_lower_leg" mocap="true" pos="0.0 -1.095 0.5309999999999999" quat="1.0 0.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_right_foot" mocap="true" pos="0.0 -1.095 0.07099999999999995" quat="1.0 0.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_left_upper_leg" mocap="true" pos="0.0 -0.905 0.9609999999999999" quat="1.0 0.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_left_lower_leg" mocap="true" pos="0.0 -0.905 0.5309999999999999" quat="1.0 0.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+	<body name="m_left_foot" mocap="true" pos="0.0 -0.905 0.07099999999999995" quat="1.0 0.0 0.0 0.0">
+		<site type="sphere" size="0.01" />
+	</body>
+</body>

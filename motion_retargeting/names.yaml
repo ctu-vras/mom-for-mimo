@@ -1,0 +1,41 @@
+Spine: a_mocap_hips
+Spine1: a_mocap_lb
+Spine2: a_mocap_ub
+Neck: a_mocap_neck
+Head: a_mocap_head
+
+RightShoulder: a_mocap_right_shoulder_help
+RightArm: a_mocap_right_shoulder
+RightForeArm: a_mocap_right_elbow
+RightForeArmRoll: a_mocap_right_forearm
+RightHand: a_mocap_right_wrist
+RWristIn: a_mocap_right_wrist_in
+RWristOut: a_mocap_right_wrist_out
+RHand2: a_mocap_right_finger
+
+LeftShoulder: a_mocap_left_shoulder_help
+LeftArm: a_mocap_left_shoulder
+LeftForeArm: a_mocap_left_elbow
+LeftForeArmRoll: a_mocap_left_forearm
+LeftHand: a_mocap_left_wrist
+LWristIn: a_mocap_left_wrist_in
+LWristOut: a_mocap_left_wrist_out
+LHand2: a_mocap_left_finger
+
+RightUpLeg: a_mocap_right_hip
+RightLeg: a_mocap_right_knee
+RightFoot: a_mocap_right_ankle
+RightToeBase: a_mocap_right_toe
+
+LeftUpLeg: a_mocap_left_hip
+LeftLeg: a_mocap_left_knee
+LeftFoot: a_mocap_left_ankle
+LeftToeBase: a_mocap_left_toe
+
+HeadL: a_mocap_headl
+HeadR: a_mocap_headr
+HeadFront: a_mocap_headfr
+
+bb0: a_mocap_bb0
+bb1: a_mocap_bb1
+bb2: a_mocap_bb2
